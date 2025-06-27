@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { db, doc, getDoc, setDoc, updateDoc } from '../Settings/firebaseConfig';
-import { NumberTicker } from "@/components/magicui/number-ticker";
+import { NumberTicker } from "../Components/magicui/number-ticker";
 
 const NumberTricker = () => {
     const [count, setCount] = useState(0);

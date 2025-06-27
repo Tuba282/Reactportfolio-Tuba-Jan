@@ -4,13 +4,6 @@ import { SparklesPreview } from "./SparkelsAboutMe";
 import { SmoothCursor } from "../Components/smooth-cursor";
 import PressButton from "./PressButton";
 import projectData from "../Settings/data";
-import {
-    Modal,
-    ModalBody,
-    ModalContent,
-    ModalFooter,
-    ModalTrigger,
-} from "../Components/ui/animated-modal";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
