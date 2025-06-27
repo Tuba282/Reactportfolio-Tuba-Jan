@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { PinContainer } from "../Components/ui/3d-pin";
 import { SparklesPreview } from "./SparkelsAboutMe";
-import { SmoothCursor } from "@/components/ui/smooth-cursor";
+import { SmoothCursor } from "../Components/smooth-cursor";
 import PressButton from "./PressButton";
 import projectData from "../Settings/data";
 import {
