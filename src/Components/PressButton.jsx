@@ -1,7 +1,6 @@
 import React from 'react';
-import { CoolMode } from "@/components/magicui/cool-mode";
+import { CoolMode } from "./magicui/cool-mode";
 import styled from 'styled-components';
-import { FaCheckDouble } from "react-icons/fa6";
 const PressButton = ({ text, extraClasses }) => {
   return (
     <StyledWrapper>
