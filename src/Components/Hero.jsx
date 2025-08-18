@@ -28,7 +28,7 @@ const Hero = () => {
                             </LinkPreview>
                         </div>
                         <div className="right flex items-center gap-3">
-                            <LinkPreview url="https://www.serverplan.com/blog/wp-content/uploads/2011/01/uso-facebook-1024x768.webp" className="font-bold">
+                            <LinkPreview url="https://img.freepik.com/free-photo/pile-3d-facebook-logos_1379-875.jpg" className="font-bold">
                                 <a target="_blank" href='https://www.facebook.com/'><img src="/facebook.png" alt="" className=' w-8 h-8 btn-press-effect drop-shadow-xs drop-shadow-gray-300' /></a>
                             </LinkPreview>
                             <LinkPreview url="https://www.eyezy.com/blog/wp-content/uploads/2023/10/how-to-know-if-someone-is-talking-to-someone-else-on-instagram.jpg" className="font-bold">

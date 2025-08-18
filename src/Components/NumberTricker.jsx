@@ -34,7 +34,7 @@ const NumberTricker = () => {
                 <span className='text-5xl text-center text-white font-[Quicksand]'>Projects</span>
                 <span className="whitespace-pre-wrap text-8xl  font-[Quicksand] text-center font-medium tracking-tighter text-white">
                     <NumberTicker
-                        value={21}
+                        value={31}
                         className="whitespace-pre-wrap  font-[Quicksand] text-8xl text-center font-medium tracking-tighter text-white"
                     />+
                 </span>
@@ -43,7 +43,7 @@ const NumberTricker = () => {
                 <span className='text-5xl text-center text-white font-[Quicksand]'>Linkedin <br /> connections</span>
                 <span className="whitespace-pre-wrap text-8xl  font-[Quicksand] text-center font-medium tracking-tighter text-white">
                     <NumberTicker
-                        value={1102}
+                        value={1345}
                         className="whitespace-pre-wrap  font-[Quicksand] text-8xl text-center font-medium tracking-tighter text-white"
                     />+
                 </span>
@@ -52,7 +52,7 @@ const NumberTricker = () => {
                 <span className='text-5xl text-center text-white font-[Quicksand]'>Portfolio <br /> Visitors</span>
                 <span className="whitespace-pre-wrap text-8xl  font-[Quicksand] text-center font-medium tracking-tighter text-white">
                     <NumberTicker
-                        value={count || 27}
+                        value={count || 48}
                         className="whitespace-pre-wrap  font-[Quicksand] text-8xl text-center font-medium tracking-tighter text-white"
                     />+
                 </span>
