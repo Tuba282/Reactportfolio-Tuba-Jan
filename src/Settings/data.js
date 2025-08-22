@@ -1,7 +1,7 @@
 const projectData = [
   {
     title: "Splyt Milk",
-    link: "splyt-milk.netlify.app",
+    link: "https://splyt-milk.netlify.app",
     description:
       "Protein + Caffeine ... Live life to the fullest with SPYLT: Shatter boredom and embrace your inner kid with every deliciously smooth chug.Protein + Caffeine ... Live life to the fullest with SPYLT: Shatter boredom and embrace your inner kid with every deliciously smooth chug.",
     image: "/splytMilk.png",
