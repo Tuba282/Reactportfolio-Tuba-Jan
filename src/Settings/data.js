@@ -1,10 +1,17 @@
 const projectData = [
   {
-    title: "Splyt Milk",
-    link: "https://splyt-milk.netlify.app",
+    title: "Flacio",
+    link: "https://flacio-plantshop.vercel.app/",
     description:
-      "Protein + Caffeine ... Live life to the fullest with SPYLT: Shatter boredom and embrace your inner kid with every deliciously smooth chug.Protein + Caffeine ... Live life to the fullest with SPYLT: Shatter boredom and embrace your inner kid with every deliciously smooth chug.",
-    image: "/splytMilk.png",
+      "Flacio Plant Shop is an online store dedicated to bringing nature closer to you with a wide variety of indoor plants and greenery. From stylish pots to fresh plant collections, it offers everything you need to create a refreshing and cozy space.",
+    image: "/Flacio.png",
+  },
+  {
+    title: "QueryBoard",
+    link: "https://ques-ans-frontend.vercel.app/",
+    description:
+      "Q&A Frontend is a sleek and intuitive web interface for asking and answering questions—designed for seamless browsing and quick interactions. Its clean layout and straightforward functionality make it perfect for users looking to get or share information efficiently.",
+    image: "/QueryBoard.png",
   },
   {
     title: "SR Towing",
