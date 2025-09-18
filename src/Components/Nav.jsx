@@ -10,7 +10,7 @@ import { TbAward } from "react-icons/tb";
 const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="nav w-20 fixed right-0 top-0  sm:top-40 z-[50]  flex justify-end items-end p-3 sm:p-2 py-0 md:py-3">
+    <div className="nav w-20 fixed right-0 top-0  sm:top-40 z-[50]  flex justify-end items-end p-3 sm:p-2 py-0 md:py-3 overflow-hidden">
       {/* Hamburger Toggle for mobile */}
       <button
         className="md:hidden flex flex-col justify-center items-center my-14 z-[50]"
@@ -51,7 +51,7 @@ const Nav = () => {
             tabIndex={0}
             onClick={() => setOpen(false)}
           >
-            <PiCodepenLogoBold className='text-md sm:text-xl'  />
+            <PiCodepenLogoBold className='text-md sm:text-xl' />
           </a>
           <span className="absolute -left-20   px-2 py-1 rounded shadow-sm shadow-white backdrop-blur-xs bg-white/10 text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap z-50">Timeline</span>
         </div>
@@ -63,7 +63,7 @@ const Nav = () => {
             tabIndex={0}
             onClick={() => setOpen(false)}
           >
-            <FaCode className='text-md sm:text-xl'  />
+            <FaCode className='text-md sm:text-xl' />
           </a>
           <span className="absolute -left-20   px-2 py-1 rounded shadow-sm shadow-white backdrop-blur-xs bg-white/10 text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap z-50">Projects</span>
         </div>
@@ -75,7 +75,7 @@ const Nav = () => {
             tabIndex={0}
             onClick={() => setOpen(false)}
           >
-            <MdDiversity2 className='text-md sm:text-xl'  />
+            <MdDiversity2 className='text-md sm:text-xl' />
           </a>
           <span className="absolute -left-25   px-2 py-1 rounded shadow-sm shadow-white backdrop-blur-xs bg-white/10 text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap z-50">Testimonial</span>
         </div>
@@ -87,7 +87,7 @@ const Nav = () => {
             tabIndex={0}
             onClick={() => setOpen(false)}
           >
-            <LuChartNetwork className='text-md sm:text-xl'  />
+            <LuChartNetwork className='text-md sm:text-xl' />
           </a>
           <span className="absolute -left-17   px-2 py-1 rounded shadow-sm shadow-white backdrop-blur-xs bg-white/10 text-white text-xs font-semibold opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap z-50">Skills</span>
         </div>
@@ -99,7 +99,7 @@ const Nav = () => {
             tabIndex={0}
             onClick={() => setOpen(false)}
           >
-            <TbAward className='text-md sm:text-xl'  />
+            <TbAward className='text-md sm:text-xl' />
           </a>
           <span className="absolute -left-20   px-2 py-1 rounded shadow-sm shadow-white backdrop-blur-xs bg-white/10 text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap z-50">Awards</span>
         </div>

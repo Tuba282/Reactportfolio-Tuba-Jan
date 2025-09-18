@@ -42,7 +42,7 @@ html,
 body {
   scrollbar-width: none;
   background-color: black;
-  overflow: hidden !important;
+  /* overflow: hidden !important; */
 }
 a,
 button {
