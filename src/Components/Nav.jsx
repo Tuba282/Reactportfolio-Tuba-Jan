@@ -10,7 +10,7 @@ import { TbAward } from "react-icons/tb";
 const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="nav w-20 fixed right-0 top-0  sm:top-40 z-[50]  flex justify-end items-end p-3 sm:p-2 py-0 md:py-3 overflow-hidden">
+    <div className="nav w-20 fixed right-0 top-0  sm:top-40 z-[50]  flex justify-end items-end p-3 sm:p-2 py-0 md:py-3">
       {/* Hamburger Toggle for mobile */}
       <button
         className="md:hidden flex flex-col justify-center items-center my-14 z-[50]"

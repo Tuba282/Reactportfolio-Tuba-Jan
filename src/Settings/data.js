@@ -1,5 +1,26 @@
 const projectData = [
   {
+    title: "Student Portal",
+    link: "https://student-portal-devxcript.vercel.app/",
+    description:
+      "DevXcript Student Portal is a fully responsive student management website built with React.js, JavaScript, and Tailwind CSS using a component-based architecture. It leverages Redux for efficient state management, ensuring smooth data flow across the application. The platform also implements strict validation mechanisms to securely control access to the dashboard, providing a reliable and scalable solution for academic management.",
+    image: "/StudentPortal.png",
+  },
+  {
+    title: "Meditics Medical Healthcare",
+    link: "https://meditics-medical-healthcare.netlify.app/",
+    description:
+      "Meditics Medical-Healthcare is a fully responsive healthcare website built with NextJs, TypeScript, and Tailwind CSS using a component-based architecture. It implements folder-based routing with dynamic params for detailed pages, and leverages Material UI ( MUI ) , Magic UI, and SHADCN UI (shadcndesign.com) for modern, reusable components.",
+    image: "/Meditics.png",
+  },
+  {
+    title: "EmailGigga",
+    link: "https://email-gigga.vercel.app/",
+    description:
+      "A modern landing page built with React Vite and TypeScript, styled using Tailwind CSS and Material UI. The project is version-controlled with GitHub and deployed seamlessly on Vercel.",
+    image: "/EmailGigga.png",
+  },
+  {
     title: "Flacio",
     link: "https://flacio-plantshop.vercel.app/",
     description:
@@ -10,7 +31,7 @@ const projectData = [
     title: "QueryBoard",
     link: "https://ques-ans-frontend.vercel.app/",
     description:
-      "Q&A Frontend is a sleek and intuitive web interface for asking and answering questions—designed for seamless browsing and quick interactions. Its clean layout and straightforward functionality make it perfect for users looking to get or share information efficiently.",
+    "Q&A Frontend is a sleek and intuitive web interface for asking and answering questions—designed for seamless browsing and quick interactions. Its clean layout and straightforward functionality make it perfect for users looking to get or share information efficiently.",
     image: "/QueryBoard.png",
   },
   {
@@ -24,8 +45,15 @@ const projectData = [
     title: "Ali Baba ",
     link: "https://ali-baba-landing-page-css.netlify.app/",
     description:
-      "Ali Baba Landing Page showcases a modern and clean design that highlights premium products. With an engaging layout, it aims to attract customers by providing clear product descriptions, a prominent call-to-action, and a sleek user experience. This landing page focuses on user engagement and encourages exploration of exclusive offers.",
+    "Ali Baba Landing Page showcases a modern and clean design that highlights premium products. With an engaging layout, it aims to attract customers by providing clear product descriptions, a prominent call-to-action, and a sleek user experience. This landing page focuses on user engagement and encourages exploration of exclusive offers.",
     image: "/alibabaCover.jpg",
+  },
+  {
+    title: "E-Sheba",
+    link: "https://e-sheba.netlify.app/",
+    description:
+      "E-Sheba is a fully responsive healthcare website built with ReactJs, TypeScript, and Tailwind CSS using a component-based architecture. The site also integrates external libraries for sliders and icons, while props are used to maintain clean, scalable, and reusable code.",
+    image: "/E-Sheba.png",
   },
   {
     title: "WanderLand",
@@ -262,6 +290,13 @@ const projectData = [
 export default projectData;
 
 export const awardsData = [
+  {
+    title: "Mern Stack Developer",
+    description:
+      "MERN Stack Development Certification from Saylani Mass IT Training (SMIT), completed through a 1.7-year intensive program in MongoDB, Express.js, React.js, and Node.js.",
+    PDF_link: "/SMIT_Mern_Certificate.pdf",
+    image: "/SMIT.png",
+  },
   {
     title: "FemHack 2025",
     description:

@@ -15,6 +15,20 @@ const TimelineDemo = () => {
       title: "2025",
       content: (
         <div>
+          <h2 className="text-white text-3xl sm:text-5xl text-bold font-[heroMainHeadings] "> <TextRevealEffect text={'Pursuing BS-Computer Science at SMIU'} data-aos-duration="300" /></h2>
+          <p
+            className="mt-4 text-gray-300  md:text-sm dark:text-neutral-200">
+
+            <TextRevealEffect text={`I am currently pursuing a Bachelor of Science in Computer Science (BSCS) at Sindh Madressatul Islam University (SMIU). This program is helping me build a strong foundation in programming, software development, and emerging technologies to prepare for a successful career in the tech industry.`} data-aos-duration="1000" />
+
+          </p>
+        </div>
+      ),
+    },
+    {
+      title: "2025",
+      content: (
+        <div>
           <h2 className="text-white text-3xl sm:text-5xl text-bold font-[heroMainHeadings] "> <TextRevealEffect text={'Advancing in Full-Stack Development '} data-aos-duration="300" /></h2>
           <p
             className="mt-4 text-gray-300  md:text-sm dark:text-neutral-200">
