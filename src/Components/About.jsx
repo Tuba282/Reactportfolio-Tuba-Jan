@@ -15,9 +15,9 @@ const TimelineDemo = () => {
       title: "2025",
       content: (
         <div>
-          <h2 className="text-white text-3xl sm:text-5xl text-bold font-[heroMainHeadings] "> <TextRevealEffect text={'Pursuing BS-Computer Science at SMIU'} data-aos-duration="300" /></h2>
+          <h2 className="text-white text-2xl sm:text-3xl md:text-5xl text-bold font-[heroMainHeadings] "> <TextRevealEffect text={'Pursuing BS-Computer Science at SMIU'} data-aos-duration="300" /></h2>
           <p
-            className="mt-4 text-gray-300  md:text-sm dark:text-neutral-200">
+            className="my-4 text-gray-300  md:text-sm dark:text-neutral-200">
 
             <TextRevealEffect text={`I am currently pursuing a Bachelor of Science in Computer Science (BSCS) at Sindh Madressatul Islam University (SMIU). This program is helping me build a strong foundation in programming, software development, and emerging technologies to prepare for a successful career in the tech industry.`} data-aos-duration="1000" />
 
@@ -29,9 +29,9 @@ const TimelineDemo = () => {
       title: "2025",
       content: (
         <div>
-          <h2 className="text-white text-3xl sm:text-5xl text-bold font-[heroMainHeadings] "> <TextRevealEffect text={'Advancing in Full-Stack Development '} data-aos-duration="300" /></h2>
+          <h2 className="text-white text-2xl sm:text-3xl md:text-5xl text-bold font-[heroMainHeadings] "> <TextRevealEffect text={'Advancing in Full-Stack Development '} data-aos-duration="300" /></h2>
           <p
-            className="mt-4 text-gray-300  md:text-sm dark:text-neutral-200">
+            className="my-4 text-gray-300  md:text-sm dark:text-neutral-200">
 
             <TextRevealEffect text={`Currently enrolled in the MERN Stack Development course at Saylani Mass IT Training (SMIT) to master full-stack web technologies.`} data-aos-duration="1000" />
 
@@ -98,9 +98,9 @@ const TimelineDemo = () => {
       title: "Early 2024",
       content: (
         <div>
-          <h2 className="text-white text-5xl text-bold font-[heroMainHeadings]"><TextRevealEffect text={'Expanding into Emerging Technologies'} data-aos-duration="300" /></h2>
+          <h2 className="text-white text-2xl sm:text-3xl md:text-5xl text-bold font-[heroMainHeadings]"><TextRevealEffect text={'Expanding into Emerging Technologies'} data-aos-duration="300" /></h2>
           <p
-            className="my-4 text-gray-300 md:text-sm dark:text-neutral-200">
+            className="my-4 text-gray-300  md:text-sm dark:text-neutral-200">
             <TextRevealEffect text={`Completed Intermediate at Bahria College Karachi NORE-I, `} data-aos-duration="900" />
             <TextRevealEffect text={`securing 2nd position in Computer Science with A+ grade.`} data-aos-duration="1400" />
             <TextRevealEffect text={` After words , Enrolled at GIAIC (Govt. Institute of Artificial Intelligence & Computing) with excellent grades.`} data-aos-duration="2000" />
@@ -148,9 +148,9 @@ const TimelineDemo = () => {
       title: "2022",
       content: (
         <div>
-          <h2 className="text-white text-5xl text-bold font-[heroMainHeadings]"><TextRevealEffect text={`Intermediate with Computer Field`} data-aos-duration="300" /></h2>
+          <h2 className="text-white text-2xl sm:text-3xl md:text-5xl text-bold font-[heroMainHeadings]"><TextRevealEffect text={`Intermediate with Computer Field`} data-aos-duration="300" /></h2>
           <p
-            className="my-4 text-gray-300 md:text-sm dark:text-neutral-200">
+            className="my-4 text-gray-300  md:text-sm dark:text-neutral-200">
             <TextRevealEffect text={`Completed studies at Bahria College Karachi NORE-I, securing 2nd position in the Computer Science field with an A+ grade.`} data-aos-duration="1000" />
             <TextRevealEffect text={`This achievement reflects dedication, analytical skills, and a deep understanding of programming and computational concepts.`} data-aos-duration="2500" />
 
@@ -163,9 +163,9 @@ const TimelineDemo = () => {
       title: "2021",
       content: (
         <div>
-          <h2 className="text-white text-5xl text-bold font-[heroMainHeadings]"><TextRevealEffect text={`Matriculation Exams with Science`} data-aos-duration="300" /></h2>
+          <h2 className="text-white text-2xl sm:text-3xl md:text-5xl text-bold font-[heroMainHeadings]"><TextRevealEffect text={`Matriculation Exams with Science`} data-aos-duration="300" /></h2>
           <p
-            className="my-4 text-gray-300 md:text-sm dark:text-neutral-200">
+            className="my-4 text-gray-300  md:text-sm dark:text-neutral-200">
             <TextRevealEffect text={`Graduated from Iqra Huffaz Secondary School with an A1 grade, demonstrating outstanding academic performance and a strong grasp of core subjects.`} data-aos-duration="1000" />
             <TextRevealEffect text={`Recognized as a brilliant student for consistent excellence.`} data-aos-duration="2500" />
 

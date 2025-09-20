@@ -26,12 +26,12 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB-Zp9DFTAluyEOqtaDLae3E65DTIbhXgs",
-  authDomain: "expense-tracker-754a1.firebaseapp.com",
-  projectId: "expense-tracker-754a1",
-  storageBucket: "expense-tracker-754a1.firebasestorage.app",
-  messagingSenderId: "333667850682",
-  appId: "1:333667850682:web:6a56d6064f5b5d302a2583",
+  apiKey: "AIzaSyBwZFRfpY5kjNyHg5vmM-nRuYN90ZRgQf8",
+  authDomain: "tuba-portfolio.firebaseapp.com",
+  projectId: "tuba-portfolio",
+  storageBucket: "tuba-portfolio.firebasestorage.app",
+  messagingSenderId: "758400356126",
+  appId: "1:758400356126:web:258b77895c72525d3e830f"
 };
 
 const app = initializeApp(firebaseConfig);

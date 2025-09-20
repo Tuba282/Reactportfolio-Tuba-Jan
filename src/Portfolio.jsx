@@ -10,6 +10,7 @@ import { Testimonials } from './Components/Testimonials'
 import SkillsMarquee from './Components/SkillsMarquee'
 import Awards from './Components/Awards'
 import NumberTricker from './Components/NumberTricker'
+import Reviews from './Components/Reviews'
 
 const Portfolio = () => {
     return (
@@ -29,6 +30,8 @@ const Portfolio = () => {
             <SkillsMarquee className={' my-5 sm:my-20 md:my-30'} />
             <SparklesPreview text={"Certificates"} />
             <Awards />
+            <SparklesPreview text={"Reviews"} />
+            <Reviews/>
             <Idea />
             <SmoothCursor />
         </>

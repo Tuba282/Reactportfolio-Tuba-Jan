@@ -156,7 +156,7 @@ export function SmoothCursor({
   }, [cursorX, cursorY, rotation, scale]);
 
   return (
-    (<motion.div
+    (<motion.div className="z-[1000]!"
       style={{
         position: "fixed",
         left: cursorX,
@@ -165,7 +165,6 @@ export function SmoothCursor({
         translateY: "-50%",
         rotate: rotation,
         scale: scale,
-        zIndex: 100,
         pointerEvents: "none",
         willChange: "transform",
       }}

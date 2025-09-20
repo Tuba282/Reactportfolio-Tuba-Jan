@@ -9,9 +9,9 @@ export function SparklesPreview({ text }) {
     const { theme } = useContext(ThemeContext);
     return (
         <div
-            className='h-[20rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden mt-30'>
+            className='h-[20rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden mt-10 md:mt-15 lg:mt-20 xl:mt-30 px-2 ms:p-0'>
             <h2 className="overflow-hidden">
-                <TextRevealEffect text={text} className={`md:text-7xl text-6xl lg:text-9xl font-bold text-center ${theme.text == "text-black" ? "text-white" : theme.text} relative z-20`} />
+                <TextRevealEffect text={text} className={`md:text-7xl text-5xl  lg:text-9xl font-bold text-center ${theme.text == "text-black" ? "text-white" : theme.text} relative z-20`} />
             </h2>
             <div className="w-[40rem] h-40 relative">
                 {/* Gradients */}

@@ -5,6 +5,7 @@ import { MdDiversity2 } from "react-icons/md";
 import { LuChartNetwork } from "react-icons/lu";
 import { FaCode } from "react-icons/fa";
 import { TbAward } from "react-icons/tb";
+import { MdOutlineStars } from "react-icons/md";
 
 
 const Nav = () => {
@@ -102,6 +103,18 @@ const Nav = () => {
             <TbAward className='text-md sm:text-xl' />
           </a>
           <span className="absolute -left-20   px-2 py-1 rounded shadow-sm shadow-white backdrop-blur-xs bg-white/10 text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap z-50">Awards</span>
+        </div>
+        {/* Awards / Certificates */}
+        <div className="relative group flex items-center justify-center">
+          <a
+            href="#reviews"
+            className="circle bg-white  w-8 h-8 sm:w-10 sm:h-10 rounded-full shadow-xs shadow-gray-700 flex justify-center items-center transition-all duration-150 hover:shadow-xs hover:-translate-y-0.5 active:shadow-inner active:translate-y-[2px] cursor-pointer"
+            tabIndex={0}
+            onClick={() => setOpen(false)}
+          >
+            <MdOutlineStars className='text-md sm:text-xl' />
+          </a>
+          <span className="absolute -left-20   px-2 py-1 rounded shadow-sm shadow-white backdrop-blur-xs bg-white/10 text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap z-50">Reviews</span>
         </div>
       </div>
     </div>
