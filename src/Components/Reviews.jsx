@@ -2,7 +2,6 @@ import { useEffect, useState, useMemo, useRef } from 'react';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { motion } from "framer-motion";
-import SingInForm from "@/components/nurui/singinForm";
 import PressButton from "./PressButton";
 import { FaStar } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
@@ -11,7 +10,8 @@ import { IoIosSearch } from "react-icons/io";
 // form imports
 import Modal from '@mui/material/Modal';
 
-import { ReviewForm } from "./nurui/reviewForm";
+import SingInForm from "./nurui/singinForm";
+import ReviewForm  from "./nurui/reviewForm";
 import Loader from './Loader';
 import toast from 'react-hot-toast';
 

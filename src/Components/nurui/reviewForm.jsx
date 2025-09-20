@@ -16,7 +16,7 @@ import PressButton from "../PressButton";
 import toast from 'react-hot-toast';
 
 
-export function ReviewForm({ onSuccess }) {
+function ReviewForm({ onSuccess }) {
 
 
   const [, setMousePosition] = useState({ x: 0, y: 0 });
@@ -95,7 +95,7 @@ export function ReviewForm({ onSuccess }) {
       transition={{ duration: 0.8 }}
       className="w-full  max-w-sm relative overflow-hidden flex items-center justify-center"
       style={{ perspective: 1500 }}>
-      
+
       <motion.div
         className="relative w-full h-full"
         style={{ rotateX, rotateY }}
@@ -170,3 +170,5 @@ export function ReviewForm({ onSuccess }) {
     </motion.div>
   );
 }
+
+export default ReviewForm
