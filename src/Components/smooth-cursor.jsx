@@ -1,3 +1,6 @@
+// Modified: make cursor position update immediate (no spring) so the custom cursor
+// matches the native cursor speed and has no visible lag. Rotation/scale remain
+// spring-based for subtle motion.
 import { motion, useSpring } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
@@ -73,8 +76,8 @@ export function SmoothCursor({
   const previousAngle = useRef(0);
   const accumulatedRotation = useRef(0);
 
-  const cursorX = useSpring(0, springConfig);
-  const cursorY = useSpring(0, springConfig);
+  // Use immediate position state so the custom cursor matches native cursor speed
+  const [pos, setPos] = useState({ x: 0, y: 0 });
   const rotation = useSpring(0, {
     ...springConfig,
     damping: 60,
@@ -103,13 +106,13 @@ export function SmoothCursor({
     };
 
     const smoothMouseMove = (e) => {
-      const currentPos = { x: e.clientX, y: e.clientY };
-      updateVelocity(currentPos);
+  const currentPos = { x: e.clientX, y: e.clientY };
+  updateVelocity(currentPos);
 
-      const speed = Math.sqrt(Math.pow(velocity.current.x, 2) + Math.pow(velocity.current.y, 2));
+  const speed = Math.sqrt(Math.pow(velocity.current.x, 2) + Math.pow(velocity.current.y, 2));
 
-      cursorX.set(currentPos.x);
-      cursorY.set(currentPos.y);
+  // set position state directly (no spring) so the cursor moves instantly
+  setPos(currentPos);
 
       if (speed > 0.1) {
         const currentAngle =
@@ -153,14 +156,14 @@ export function SmoothCursor({
       document.body.style.cursor = "auto";
       if (rafId) cancelAnimationFrame(rafId);
     };
-  }, [cursorX, cursorY, rotation, scale]);
+  }, [rotation, scale]);
 
   return (
     (<motion.div className="z-[1000]!"
       style={{
         position: "fixed",
-        left: cursorX,
-        top: cursorY,
+        left: `${pos.x}px`,
+        top: `${pos.y}px`,
         translateX: "-50%",
         translateY: "-50%",
         rotate: rotation,
