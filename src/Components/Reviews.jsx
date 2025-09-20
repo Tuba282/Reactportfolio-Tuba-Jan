@@ -261,7 +261,7 @@ const Reviews = () => {
                                                                 className="w-14 h-14 border-2 bg-center bg-cover border-white/70 rounded-xl"
                                                             />
                                                             <div>
-                                                                <h3 className="text-lg font-semibold text-white">
+                                                                <h3 className="text-lg font-semibold text-white capitalize">
                                                                     {group[0].name}
                                                                 </h3>
                                                                 <div className="flex justify-start items-center mb-2">
@@ -297,7 +297,7 @@ const Reviews = () => {
                                                                 className="w-14 h-14 border-2 bg-center bg-cover border-white/70 rounded-xl"
                                                             />
                                                             <div>
-                                                                <h3 className="text-lg font-semibold text-white">
+                                                                <h3 className="text-lg font-semibold text-white capitalize">
                                                                     {group[1].name}
                                                                 </h3>
                                                                 <div className="flex justify-start items-center mb-2">
@@ -333,7 +333,7 @@ const Reviews = () => {
                                                                 className="w-14 h-14 border-2 bg-center bg-cover border-white/70 rounded-xl"
                                                             />
                                                             <div>
-                                                                <h3 className="text-lg font-semibold text-white">
+                                                                <h3 className="text-lg font-semibold text-white capitalize">
                                                                     {group[2].name}
                                                                 </h3>
                                                                 <div className="flex justify-start items-center mb-2">
