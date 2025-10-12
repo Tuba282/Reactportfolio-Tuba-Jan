@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { PinContainer } from "../Components/ui/3d-pin";
 import { SparklesPreview } from "./SparkelsAboutMe";
-import { SmoothCursor } from "../Components/smooth-cursor";
+// import { SmoothCursor } from "../Components/smooth-cursor";
 import PressButton from "./PressButton";
 import projectData from "../Settings/data";
 import { motion } from "framer-motion";
@@ -39,7 +39,7 @@ export default function ProjectCard() {
     return (
         <div className="min-h-screen w-full flex flex-col items-center justify-center ">
             <SparklesPreview text={'Projects'} />
-            <SmoothCursor />
+            {/* <SmoothCursor /> */}
             <div className="w-full flex justify-between mb-4 items-center gap-4 p-0 lg:px-40 md:px-10 sm:px-5 px-2">
                 <Link to={'/'}><PressButton  text={'Go Back'} extraClasses={'p-3'} /></Link>
                 <div className="flex w-full max-w-[50%] items-center gap-2">

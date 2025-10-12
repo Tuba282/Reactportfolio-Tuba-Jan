@@ -4,7 +4,7 @@ import TimelineDemo from './Components/About'
 import { SparklesPreview } from './Components/SparkelsAboutMe'
 import Idea from './Components/Idea'
 import 'aos/dist/aos.css';
-import { SmoothCursor } from "./Components/smooth-cursor";
+// import { SmoothCursor } from "./Components/smooth-cursor";
 import BentoGrid from './Components/ui/BentoGrid'
 import { Testimonials } from './Components/Testimonials'
 import SkillsMarquee from './Components/SkillsMarquee'
@@ -33,7 +33,7 @@ const Portfolio = () => {
             <SparklesPreview text={"Reviews"} />
             <Reviews/>
             <Idea />
-            <SmoothCursor />
+            {/* <SmoothCursor /> */}
         </>
     )
 }

@@ -8,31 +8,32 @@ import {
 const SkillsMarquee = ({ className }) => {
 
     const SkillsImgs = [
-        "/icon-reactJs.webp",
-        "/icon-tailwind.webp",
-        "/icon-typescript.webp",
-        "/icon-node.webp",
-        "/icon-bootstrap.png",
-        "/icon-nextJs.png",
-        "/icon-netlify.webp",
-        "/icon-mongoDB.png",
-        "/icon-vite.png",
-        "/icon-javascript.webp",
-        "/icon-html.webp",
-        "/icon-reactbootstrap.png",
-        "/default.webp",
-        "/icon-githb.webp",
-        "/icon-git.webp",
-        "/icon-Express.png",
-        "/icon-flowbite.png",
-        "/icon-ES6.png",
-        "/icon-figma.png",
-        "/icon-canva.png",
-        "/icon-fromerMotion.png",
-        "/icon-css.webp"
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307180/icon-reactJs_o63u7n.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307182/icon-tailwind_otbsns.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307186/icon-typescript_knxbxd.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307177/icon-node_wlouhp.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307144/icon-bootstrap_ehheth.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307176/icon-nextJs_epuhcm.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307176/icon-netlify_sski56.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307177/icon-mongoDB_tawpas.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307186/icon-vite_kkaqea.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307174/icon-javascript_ujoygz.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307173/icon-html_rxymtb.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307180/icon-reactbootstrap_rihrva.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307898/default_dvunkr.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307171/icon-githb_en0oc9.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307169/icon-git_rvgx2n.webp",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307167/icon-Express_cekryd.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307168/icon-flowbite_g0ao0d.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307168/icon-flowbite_g0ao0d.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307144/icon-ES6_xprhxs.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307168/icon-figma_vjqimk.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307145/icon-canva_bwb21o.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307168/icon-fromerMotion_p1godq.png",
+        "https://res.cloudinary.com/dzq61zzxb/image/upload/v1760307144/icon-css_eckevz.webp"
     ];
     return (
-        <div  id="skills" className={` size-full items-center justify-center bg-black ${className}`}>
+        <div id="skills" className={` size-full items-center justify-center bg-black ${className}`}>
             {/* Marquee moving right (default) */}
             <Marquee>
                 <MarqueeFade side="left" />

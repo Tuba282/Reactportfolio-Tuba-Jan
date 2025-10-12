@@ -96,14 +96,14 @@ const Idea = () => {
       </div>
       <div className="back absolute top-0 left-0 w-full h-full backdrop-blur-md overflow-hidden">
         <video
-          src="/circle.mp4"
+          src="https://res.cloudinary.com/dzq61zzxb/video/upload/v1760310030/circle_y6m7x5.mp4"
           autoPlay
           loop
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover "
         />
-        <div className="w-full h-full absolute top-0 left-0 bg-black/70"></div>
+        <div className="w-full h-full absolute top-0 left-0 bg-black/40"></div>
       </div>
     </div>
   );

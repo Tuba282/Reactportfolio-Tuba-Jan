@@ -43,7 +43,7 @@ const TimelineDemo = () => {
           <div className="grid grid-cols-2 gap-4">
             <a href="https://ques-ans-frontend.vercel.app/" target="_blank">
               <img
-                src="/QueryBoard.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310046/QueryBoard_scbpfs.png"
                 alt="startup template"
                 width={500}
                 height={500}
@@ -51,7 +51,7 @@ const TimelineDemo = () => {
             </a>
             <a href="https://flacio-plantshop.vercel.app/" target="_blank">
               <img
-                src="/Flacio.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760309982/Flacio_mf432e.png"
                 alt="startup template"
                 width={500}
                 height={500}
@@ -60,7 +60,7 @@ const TimelineDemo = () => {
 
             <a href="https://sr-towing-mocha.vercel.app/" target="_blank">
               <img
-                src="/srTowing.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310314/srTowing_fzjdyj.png"
                 alt="startup template"
                 width={500}
                 height={500}
@@ -68,7 +68,7 @@ const TimelineDemo = () => {
             </a>
             <a href="https://react-keep-notes-app.netlify.app" target="_blank">
               <img
-                src="/keepNotes.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310039/keepNotes_r7wx8b.png"
                 alt="startup template"
                 width={500}
                 height={500}
@@ -76,7 +76,7 @@ const TimelineDemo = () => {
             </a>
             <a href="https://splyt-milk.netlify.app" target="_blank">
               <img
-                src="/splytMilk.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310081/splytMilk_l1nunz.png"
                 alt="startup template"
                 width={500}
                 height={500}
@@ -84,7 +84,7 @@ const TimelineDemo = () => {
             </a>
             <a href="https://react-wander-land.netlify.app" target="_blank">
               <img
-                src="/WanderLand.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310279/WanderLand_ktbdge.png"
                 alt="startup template"
                 width={500}
                 height={500}
@@ -110,7 +110,7 @@ const TimelineDemo = () => {
           <div className="grid grid-cols-2 gap-4">
             <a href="https://ownshelf.vercel.app/" target="_blank">
               <img
-                src="/OwnShelf.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310040/OwnShelf_jnazd3.png"
                 alt="hero template"
                 width={500}
                 height={500}
@@ -118,7 +118,7 @@ const TimelineDemo = () => {
             </a>
             <a href="https://tuba-jan-resume.netlify.app" target="_blank">
               <img
-                src="/ResumeBuilder.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310077/ResumeBuilder_vvrgvz.png"
                 alt="feature template"
                 width={500}
                 height={500}
@@ -126,7 +126,7 @@ const TimelineDemo = () => {
             </a>
             <a href="https://tuba-real-portfolio.vercel.app/" target="_blank">
               <img
-                src="/TubaBluePortfolio.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310243/TubaBluePortfolio_sioo6i.png"
                 alt="bento template"
                 width={500}
                 height={500}
@@ -134,7 +134,7 @@ const TimelineDemo = () => {
             </a>
             <a href="https://smartvibes.netlify.app" target="_blank">
               <img
-                src="/SmartVibes.png"
+                src="https://res.cloudinary.com/dzq61zzxb/image/upload/v1760310080/SmartVibes_nxfs1w.png"
                 alt="cards template"
                 width={500}
                 height={500}
