@@ -135,6 +135,7 @@ const Reviews = () => {
     const paginatedData = useMemo(() =>
         filteredData.slice((page - 1) * cardsPerPage, page * cardsPerPage),
         [filteredData, page]
+        
     );
 
     const handleSearch = (e) => {
