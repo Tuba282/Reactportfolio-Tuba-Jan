@@ -107,6 +107,8 @@ const Reviews = () => {
                     ...doc.data()
                 }));
                 setReviews(data);
+                // console.log(data);
+                
             } catch (error) {
                 console.error('Error fetching reviews:', error);
                 toast.error('Error fetching reviews. Please try again later.');
@@ -257,7 +259,8 @@ const Reviews = () => {
                                                     <div className="relative p-6 my-4 space-y-6 leading-none rounded-lg bg-slate-950 ring-1 ring-gray-900/5">
                                                         <div className="flex items-center space-x-4">
                                                             <img
-                                                                src={group[0].image || `/user.png`}
+                                                                src={`/user.png`}
+                                                                // src={group[1].image || `/user.png`}
                                                                 alt={group[0].name}
                                                                 className="w-14 h-14 border-2 bg-center bg-cover border-white/70 rounded-xl"
                                                             />
@@ -293,7 +296,8 @@ const Reviews = () => {
                                                     <div className="relative p-6  my-4 space-y-6 leading-none rounded-lg bg-slate-950 ring-1 ring-gray-900/5">
                                                         <div className="flex items-center space-x-4">
                                                             <img
-                                                                src={group[1].image || `/user.png`}
+                                                                src={`/user.png`}
+                                                                // src={group[1].image || `/user.png`}
                                                                 alt={group[1].name}
                                                                 className="w-14 h-14 border-2 bg-center bg-cover border-white/70 rounded-xl"
                                                             />
@@ -329,7 +333,8 @@ const Reviews = () => {
                                                     <div className="relative p-6  my-4 space-y-6 leading-none rounded-lg bg-slate-950 ring-1 ring-gray-900/5">
                                                         <div className="flex items-center space-x-4">
                                                             <img
-                                                                src={group[2].image || `/user.png`}
+                                                                src={`/user.png`}
+                                                                // src={group[2].image || `/user.png`}
                                                                 alt={group[2].name}
                                                                 className="w-14 h-14 border-2 bg-center bg-cover border-white/70 rounded-xl"
                                                             />
