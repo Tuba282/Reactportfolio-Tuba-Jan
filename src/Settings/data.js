@@ -286,6 +286,13 @@ export default projectData;
 
 export const awardsData = [
   {
+    title: "Frontend Developer",
+    description:
+      "Working on scalable web applications for 1.2 month ,hands-on experience with React , Next , TypeScript etc",
+    PDF_link: "/DevXscript-Internship-Certificate.pdf",
+    image: "https://res.cloudinary.com/dzq61zzxb/image/upload/v1769024073/devXcriptLogo_u8i52a.png",
+  },
+  {
     title: "Mern Stack Developer",
     description:
       "MERN Stack Development Certification from Saylani Mass IT Training (SMIT), completed through a 1.7-year intensive program in MongoDB, Express.js, React.js, and Node.js.",
