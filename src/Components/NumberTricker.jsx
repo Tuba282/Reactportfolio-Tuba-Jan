@@ -54,7 +54,7 @@ const NumberTricker = () => {
                 <span className='text-lg sm:text-2xl  text-center text-white font-[Quicksand]'>Linkedin <br /> connections</span>
                 <span className="whitespace-pre-wrap text-xl sm:text-4xl font-[Quicksand] text-center font-medium tracking-tighter text-white">
                     <NumberTicker
-                        value={1345}
+                        value={1750}
                         className="whitespace-pre-wrap  text-xl sm:text-4xl  font-[Quicksand] text-center font-medium tracking-tighter text-white"
                     />+
                 </span>
