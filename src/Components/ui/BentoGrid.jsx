@@ -55,13 +55,15 @@ const BentoGrid = () => {
                             />
                         </div>
 
-                        <a href={item.link} target="_blank">
-                            <div className="absolute inset-0 flex flex-col items-start justify-between p-3 opacity-1000 group-hover:opacity-0 transition-all duration-300 ease-in-out">
-                                {/* <h3 className={`${item.id == 9 || item.id == 7 ? "text-black" : ""} text-xl font-thin font-[heroMainHeadings] mb-2`}>
-                                    {item.title}
-                                </h3>
-                                <p className={`${item.id == 9 || item.id == 7 ? "text-black" : "text-gray-300"}  text-sm mb-2`}>{item.desc.slice(0, 100)} ...</p> */}
-                            </div></a>
+                        <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label={`Open ${item.title || 'project'} in a new tab`}
+                            className="project-corner-link"
+                        >
+                            <span aria-hidden="true">↗</span>
+                        </a>
                     </Div>
                 ))}
             </div>
