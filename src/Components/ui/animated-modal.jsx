@@ -17,7 +17,6 @@ export const ModalProvider = ({
 };
 
 export const useModal = () => {
-    motion
   const context = useContext(ModalContext);
   if (!context) {
     throw new Error("useModal must be used within a ModalProvider");

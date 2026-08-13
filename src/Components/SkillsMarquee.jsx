@@ -45,6 +45,8 @@ const SkillsMarquee = ({ className }) => {
                                 src={item}
                                 alt={`Placeholder ${index}`}
                                 className="overflow-hidden "
+                                loading="lazy"
+                                decoding="async"
                             />
                         </MarqueeItem>
                     ))}
@@ -61,6 +63,8 @@ const SkillsMarquee = ({ className }) => {
                                 src={item}
                                 alt={`Placeholder ${index}`}
                                 className="overflow-hidden "
+                                loading="lazy"
+                                decoding="async"
                             />
                         </MarqueeItem>
                     ))}

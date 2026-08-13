@@ -7,7 +7,7 @@ import {
   motion,
   useMotionValue,
   useTransform,
-} from "framer-motion";
+} from "motion/react";
 
 
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
@@ -86,7 +86,6 @@ function ReviewForm({ onSuccess }) {
     setLoading(false);
   };
 
-  motion
   return (
 
     <motion.div

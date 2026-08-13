@@ -8,7 +8,6 @@ export const TypewriterEffect = ({
     cursorClassName
 }) => {
     // Merge all words into a single array of characters, adding a space after each word except the last
-    motion
     const chars = words.flatMap((word, wordIdx) => {
         const charsArr = word.text.split("").map((char) => ({
             char,

@@ -15,7 +15,6 @@ export function Div({
     className,
     ...otherProps
 }) {
-    motion
     // eslint-disable-next-line
     const { theme } = useContext(ThemeContext);
     return (

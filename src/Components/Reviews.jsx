@@ -1,15 +1,13 @@
 import { useEffect, useState, useMemo, useRef } from 'react';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import PressButton from "./PressButton";
 import { FaStar } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
 
 
 // form imports
-import Modal from '@mui/material/Modal';
-
 import SingInForm from "./nurui/singinForm";
 import ReviewForm  from "./nurui/reviewForm";
 import Loader from './Loader';
@@ -92,9 +90,6 @@ const Reviews = () => {
         animate();
         return () => window.removeEventListener("resize", resizeCanvas);
     }, []);
-
-
-    motion
 
 
     // Fetch reviews from firestore
@@ -397,26 +392,38 @@ const Reviews = () => {
 
 
             {/* Sign In Modal */}
-            <Modal
-                open={formModal}
-                onClose={handleClose}
-                className="flex justify-center items-center"
-            >
-                <div className="bg-white rounded-xl p-6">
-                    <SingInForm onSuccess={() => setReviewModal(true)} />
-                </div>
-            </Modal>
+            <AnimatePresence>
+                {formModal && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        onClick={handleClose}
+                        className="fixed inset-0 z-50 flex justify-center items-center bg-black/50"
+                    >
+                        <div className="bg-white rounded-xl p-6" onClick={(e) => e.stopPropagation()}>
+                            <SingInForm onSuccess={() => setReviewModal(true)} />
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
 
             {/* Review Modal */}
-            <Modal
-                open={reviewModal}
-                onClose={handleClose}
-                className="flex justify-center items-center"
-            >
-                <div className="bg-white rounded-xl p-6">
-                    <ReviewForm onSuccess={handleClose} />
-                </div>
-            </Modal>
+            <AnimatePresence>
+                {reviewModal && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        onClick={handleClose}
+                        className="fixed inset-0 z-50 flex justify-center items-center bg-black/50"
+                    >
+                        <div className="bg-white rounded-xl p-6" onClick={(e) => e.stopPropagation()}>
+                            <ReviewForm onSuccess={handleClose} />
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
 
         </div>
     );

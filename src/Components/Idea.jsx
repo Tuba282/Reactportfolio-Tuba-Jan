@@ -114,11 +114,10 @@ export default Idea;
 /*
 import React, { useContext } from 'react';
 import { ThemeContext } from '../Settings/ThemeProvider.jsx';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 
 const Idea = () => {
   const { theme } = useContext(ThemeContext);
-  motion
   return (
     <div className='relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden '>
       <div className="z-[10] ">

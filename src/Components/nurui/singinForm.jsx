@@ -9,9 +9,8 @@ import {
   motion,
   useMotionValue,
   useTransform,
-} from "framer-motion";
+} from "motion/react";
 function SingInForm({ onSuccess }) {
-  motion
   const handleGoogleSignIn = async () => {
     const provider = new GoogleAuthProvider();
     provider.setCustomParameters({ prompt: "select_account" });

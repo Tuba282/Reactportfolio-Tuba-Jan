@@ -4,13 +4,10 @@ import { SparklesPreview } from "./SparkelsAboutMe";
 // import { SmoothCursor } from "../Components/smooth-cursor";
 import PressButton from "./PressButton";
 import projectData from "../Settings/data";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 
 export default function ProjectCard() {
-    motion
-
-
     const [search, setSearch] = useState("");
     const [page, setPage] = useState(1);
     const cardsPerPage = 8;
@@ -70,7 +67,7 @@ export default function ProjectCard() {
                                     {project.description.slice(0, 56)}...
                                 </span>
                             </div>
-                            <img src={project.image} className="flex flex-1 w-full h-35 rounded-lg object-cover mt-4 bg-white" alt="" />
+                            <img src={project.image} className="flex flex-1 w-full h-35 rounded-lg object-cover mt-4 bg-white" alt="" loading="lazy" decoding="async" />
                         </a>
                     </PinContainer>
                 ))}

@@ -28,7 +28,6 @@ export const AnimatedTestimonials = ({
       return () => clearInterval(interval);
     }
   }, [autoplay]);
-  motion
 
   const randomRotateY = () => {
     return Math.floor(Math.random() * 21) - 10;

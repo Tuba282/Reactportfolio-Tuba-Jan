@@ -47,7 +47,6 @@ export const LinkPreview = ({
     React.useEffect(() => {
         setIsMounted(true);
     }, []);
-    motion
     const springConfig = { stiffness: 100, damping: 15 };
     const x = useMotionValue(0);
 

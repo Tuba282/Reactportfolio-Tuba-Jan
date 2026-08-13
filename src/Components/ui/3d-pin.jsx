@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { cn } from "/lib/utils";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 
 export const PinContainer = ({
@@ -11,7 +11,6 @@ export const PinContainer = ({
     containerClassName
 }) => {
     const [transform, setTransform] = useState("translate(-50%,-50%) rotateX(0deg)");
-    motion
     const onMouseEnter = () => {
         setTransform("translate(-50%,-50%) rotateX(40deg) scale(0.8)");
     };
