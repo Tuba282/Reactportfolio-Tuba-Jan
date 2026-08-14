@@ -18,9 +18,8 @@ const TextRevealEffect = ({ text, className }) => {
                 ease: "power2.out",
                 scrollTrigger: {
                     trigger: textRef.current,
-                    start: "top 80%", 
-                    end: "top 20%", 
-                    toggleActions: "play reverse play reverse",
+                    start: "top 90%",
+                    toggleActions: "play none none none",
                 },
             }
         );
