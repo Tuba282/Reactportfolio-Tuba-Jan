@@ -8,21 +8,28 @@ const TextRevealEffect = ({ text, className }) => {
     const textRef = useRef(null);
 
     useEffect(() => {
-        gsap.fromTo(
-            textRef.current,
-            { opacity: 0, y: 50 },
-            {
-                opacity: 1,
-                y: 0,
-                duration: 1,
-                ease: "power2.out",
-                scrollTrigger: {
-                    trigger: textRef.current,
-                    start: "top 90%",
-                    toggleActions: "play none none none",
-                },
-            }
-        );
+        const el = textRef.current;
+        if (!el) return;
+
+        const ctx = gsap.context(() => {
+            gsap.fromTo(
+                el,
+                { opacity: 0, y: 50 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    duration: 1,
+                    ease: "power2.out",
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top 95%",
+                        once: true,
+                    },
+                }
+            );
+        });
+
+        return () => ctx.revert();
     }, []);
 
     return <h2 ref={textRef} className={`inline-block ${className}`}>{text}</h2>;
